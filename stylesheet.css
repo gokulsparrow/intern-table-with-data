@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+
+table {
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 3px solid #c6c7cc;
+    padding: 10px 15px;
+}
+
+th {
+    font-weight: bold;
+}
+
+thead {
+    background-color: #71b7e6;
+}
